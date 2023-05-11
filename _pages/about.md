@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.youtube.com/watch?v=ShRANh_Qq80&list=LL&index=38'>Background music to debug a LOT of code.</a>
 
 profile:
   align: right
