@@ -22,3 +22,8 @@ I am a PhD Student at the Ohio State University, advised by Professor Kannan Ath
 My current research include but are not limited to: Artificial Intelligence of Things, Machine Learning for Wireless Networking, 
 Federated Learning, AutoML. 
 
+I am currently exploring a plethora of novel solutions to problems in the aforementioned domains, but more so in Artificial Intelligence of Things and Federated Learning.
+
+Some fun hobbies of mine are: Ballroom Dancing(Waltz, Jive, Samba and such sorts), Social Dancing(Salsa, Bachata, Kizomba etc), Jamming my guitar and meditation(quite a few variety of these). 
+
+
