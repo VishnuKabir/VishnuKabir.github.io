@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Vishnu Kabir Chhabra
     - name: Date of Birth
-      value: 14th March 1879
+      value: 24th November 1999 
     - name: Languages
-      value: English, German
+      value: English, Hindi, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science and Engineering
+      institution: Ohio State University 
+      year: 2026
       description:
         - Description 1.
         - Description 2.
