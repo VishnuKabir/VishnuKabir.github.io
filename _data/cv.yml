@@ -15,18 +15,15 @@
       institution: Ohio State University 
       year: 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advised by Prof. Kannan Athreya 
+        - Specializing in Applications of AI and Machine Leaarning in Wireless Networking. 
+        - GPA - 3.85
+    - title: B.A in Mathematics and Computer Science. 
+      institution: University of Minnesota- Twin Cities
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Double Major in Mathematics and Computer Science. 
+        - GPA - 3.404
 
 - title: Experience
   type: time_table
