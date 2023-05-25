@@ -24,6 +24,4 @@ Federated Learning, AutoML.
 
 I am currently exploring a plethora of novel solutions to problems in the aforementioned domains, but more so in Artificial Intelligence of Things and Federated Learning.
 
-Some fun hobbies of mine are: Ballroom Dancing(Waltz, Jive, Samba and such sorts), Social Dancing(Salsa, Bachata, Kizomba etc), Jamming my guitar and meditation(quite a few variety of these). 
-I also love making music playlists that encapsulate different experiences/emotions(will be uploading these SOON!).
 

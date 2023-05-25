@@ -28,22 +28,19 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Associate
+      institution: Ohio State University 
+      year: 2022 - Present 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        -	Applying Machine Learning in the field of Wireless Networking.
+        - Performed and tested various methods for improving cross band channel predictions in MIMO systems.
+    - title: Software Development Intern  
+      Company: Scriptulate 
+      year: 2021 
       description:
-        - Description 1.
-        - Description 2.
+        - Developed Java objects for efficient data storage; working directly under Chief Technical Officer of a software startup.
+        - Interpreted data to provide clients with an overview of the analysis and findings.
+        - -	Performed various forms of statistical analysis on data using an assortment of Java Libraries.
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
