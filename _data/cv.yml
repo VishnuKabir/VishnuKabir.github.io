@@ -45,11 +45,11 @@
 
     - title: Ungergraduate Teaching Assistant
       institution: University of Minnesota Twin - Cities 
-      year: 2020 - 2022
+      year: 2020
       description:
-        -	Worked with a team of TAs to efficiently teach Java & OCaml to undergraduates in times of a global pandemic
-        -	Created grading scheme for homework, quizzes, projects, exams; developed project assignments and built solutions
-        -	Debugged student code and assisted in teaching them to write clean and concise code
+        - Worked with a team of TAs to efficiently teach Java & OCaml to undergraduates in times of a global pandemic
+        - Created grading scheme for homework, quizzes, projects, exams; developed project assignments and built solutions
+        - Debugged student code and assisted in teaching them to write clean and concise code
 
 
     - title: Professor of Theoretical Physics
