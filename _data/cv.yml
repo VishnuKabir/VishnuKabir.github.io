@@ -30,9 +30,9 @@
   contents:
     - title: Graduate Research Associate
       institution: Ohio State University 
-      year: 2022 - Now
+      year: 2022
       description:
-        -	Applying Machine Learning in the field of Wireless Networking.
+        - Applying Machine Learning in the field of Wireless Networking
         - Performed and tested various methods for improving cross band channel predictions in MIMO systems.
     
     - title: Software Development Intern  
