@@ -30,10 +30,11 @@
   contents:
     - title: Graduate Research Associate
       institution: Ohio State University 
-      year: 2022 - 2023
+      year: 2022 - Now
       description:
         -	Applying Machine Learning in the field of Wireless Networking.
         - Performed and tested various methods for improving cross band channel predictions in MIMO systems.
+    
     - title: Software Development Intern  
       Company: Scriptulate 
       year: 2021 
@@ -42,9 +43,14 @@
         - Interpreted data to provide clients with an overview of the analysis and findings.
         - Performed various forms of statistical analysis on data using an assortment of Java Libraries.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Ungergraduate Teaching Assistant
+      institution: University of Minnesota Twin - Cities 
+      year: 2020 - 2022
+      description:
+        -	Worked with a team of TAs to efficiently teach Java & OCaml to undergraduates in times of a global pandemic
+        -	Created grading scheme for homework, quizzes, projects, exams; developed project assignments and built solutions
+        -	Debugged student code and assisted in teaching them to write clean and concise code
+
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
