@@ -1,10 +1,9 @@
 ---
 layout: post
-title: I finished my undergraduate at the University of Minnesota 
-date: 2022-05-09 16:11:00-0400
-inline: false
+date: 2023-11-20
+inline: true
 related_posts: false
 ---
 
-
+Finished my PhD Qualifications
 

@@ -6,7 +6,7 @@ subtitle: <a href='https://www.youtube.com/watch?v=ShRANh_Qq80&list=LL&index=38'
 
 profile:
   align: right
-  image: IMG_0944.jpg
+  image: mypic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>418 Baker Systems</p>
@@ -19,6 +19,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I am a PhD Student at the Ohio State University, advised by Professor Kannan Athreya and Professor Srinivasan Parthasarathy.  
-My current research includes but is not limited to: Machine Learning for Wireless Networking, Out-Of-Distribution Detection for LLMs. 
- 
-
+My current research includes but is not limited to: Mechanistic Interpretabililty, Out-Of-Distribution Detection for LLMs. 

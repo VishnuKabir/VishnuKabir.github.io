@@ -9,7 +9,14 @@ $max-content-width: {{ site.max_width }};
 @import
   "variables",
   "themes",
+  "themes_custom",
   "layout",
   "base",
-  "distill"
+  "distill",
+  "custom",
+  "cv",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular"
 ;
