@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="https://vishnukabir.github.io/">
   <title>Vishnu Kabir Chhabra</title>
-  <meta name="description" content="PhD student at The Ohio State University working on mechanistic interpretability, out-of-distribution detection for LLMs, and machine learning for wireless networks.">
+  <meta name="description" content="PhD candidate at The Ohio State University working on AI safety through mechanistic interpretability: how refusal and steering mechanisms in language models change under compression, fine-tuning and corruption.">
   <meta name="theme-color" content="#07090f">
   <meta property="og:title" content="Vishnu Kabir Chhabra">
-  <meta property="og:description" content="PhD student at The Ohio State University working on mechanistic interpretability, out-of-distribution detection for LLMs, and machine learning for wireless networks.">
+  <meta property="og:description" content="PhD candidate at The Ohio State University working on AI safety through mechanistic interpretability: how refusal and steering mechanisms in language models change under compression, fine-tuning and corruption.">
   <meta property="og:image" content="https://vishnukabir.github.io/assets/img/portrait.jpg">
   <meta property="og:url" content="https://vishnukabir.github.io/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2307090f'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' text-anchor='middle' fill='%2338e8ff'%3EVK%3C/text%3E%3C/svg%3E">
@@ -26,9 +26,10 @@
       <li><a href="#research">research</a></li>
       <li><a href="#news">news</a></li>
       <li><a href="#publications">publications</a></li>
+      <li><a href="#projects">projects</a></li>
       <li><a href="#experience">experience</a></li>
       <li><a href="#contact">contact</a></li>
-      <li><a class="nav-cv" href="/assets/pdf/vishnu23.pdf">cv.pdf</a></li>
+      <li><a class="nav-cv" href="/assets/pdf/vishnu-chhabra-cv.pdf">cv.pdf</a></li>
     </ul>
   </nav>
 </header>
@@ -38,12 +39,18 @@
     <div class="hero-text">
       <p class="eyebrow"><span class="dot" aria-hidden="true"></span> The Ohio State University</p>
       <h1>Vishnu Kabir Chhabra</h1>
-      <p class="role">PhD Student · Computer Science & Engineering</p>
+      <p class="role">PhD Candidate · AI Safety & Mechanistic Interpretability</p>
       <p class="lead">
-        I'm a PhD student at The Ohio State University, advised by
-        Prof. Kannan Athreya and Prof. Srinivasan Parthasarathy. My research
-        includes mechanistic interpretability and out-of-distribution detection
-        for LLMs, along with machine learning for wireless networks.
+        I'm a PhD candidate at The Ohio State University, advised by
+        Prof. Xueru Zhang and Prof. Mohammad Mahdi Khalili, working on AI safety
+        through mechanistic interpretability. I study how safety mechanisms in
+        language models, such as refusal behavior and steering directions, change
+        under compression, fine-tuning and corruption, and I build lightweight
+        methods that make models safer.
+      </p>
+      <p class="lead lead-sub">
+        <span class="hl">10 papers</span>, 6 first-author, at NAACL, MobiCom, CSCW and ICML workshops.
+        Currently open to research scientist roles in AI safety and interpretability.
       </p>
       <ul class="links">
         <li><a href="https://github.com/VishnuKabir" rel="me noopener" target="_blank">github<span aria-hidden="true">↗</span></a></li>
@@ -63,13 +70,13 @@
     <h2 class="section-title"><span>01</span> research interests</h2>
     <div class="grid-2">
       <div class="card">
-        <h3>Machine Learning</h3>
-        <ul class="tags"><li>Mechanistic interpretability</li><li>Out-of-distribution detection</li><li>Fourier neural operators</li>
+        <h3>AI Safety & Interpretability</h3>
+        <ul class="tags"><li>Mechanistic interpretability</li><li>Refusal & safety mechanisms</li><li>Steering vectors</li><li>Sparse autoencoders</li><li>Model compression</li><li>Fine-tuning robustness</li>
         </ul>
       </div>
       <div class="card">
-        <h3>Mathematics</h3>
-        <ul class="tags"><li>Optimal transport</li><li>Differential equations</li>
+        <h3>Machine Learning</h3>
+        <ul class="tags"><li>Diffusion models</li><li>Reinforcement learning</li><li>Statistical learning</li><li>ML for wireless networks</li>
         </ul>
       </div>
     </div>
@@ -79,8 +86,24 @@
     <h2 class="section-title"><span>02</span> news</h2>
     <ol class="log">
       <li>
+        <time datetime="2026-06-01">2026.06</time>
+        <p>Advanced to <strong>PhD candidacy</strong>.</p>
+      </li>
+      <li>
+        <time datetime="2025-06-01">2025.06</time>
+        <p>Workshop paper on refusal in compressed models accepted at <strong>ICML 2025 (AIW)</strong>.</p>
+      </li>
+      <li>
+        <time datetime="2025-01-01">2025.01</time>
+        <p><em>Neuroplasticity and Corruption in Model Mechanisms</em> accepted at <strong>NAACL 2025</strong>.</p>
+      </li>
+      <li>
+        <time datetime="2024-06-01">2024.06</time>
+        <p>Workshop paper on ECG signal denoising accepted at <strong>ICML 2024 (NGSM)</strong>.</p>
+      </li>
+      <li>
         <time datetime="2023-12-01">2023.12</time>
-        <p>Our work <strong>HORCRUX</strong> on accurate channel prediction was accepted at <strong>MobiCom 2024</strong>.</p>
+        <p>Our work <strong>HORCRUX</strong> on accurate cross-band channel prediction was accepted at <strong>MobiCom 2024</strong>.</p>
       </li>
       <li>
         <time datetime="2023-11-20">2023.11</time>
@@ -99,53 +122,116 @@
 
   <section id="publications" class="section">
     <h2 class="section-title"><span>03</span> publications</h2>
+    <h3 class="group-title">AI Safety & Interpretability</h3>
     <ol class="pubs">
+      <li class="card pub">
+        <div class="pub-meta"><span class="badge">NAACL</span><span>2025</span></div>
+        <div>
+          <h3>Neuroplasticity and Corruption in Model Mechanisms: A Case Study of Indirect Object Identification</h3>
+          <p class="authors"><strong>V.K. Chhabra</strong>, D. Zhu, M.M. Khalili</p>
+          <p class="venue">NAACL 2025</p>
+        </div>
+      </li>
+      <li class="card pub">
+        <div class="pub-meta"><span class="badge">ICML-W</span><span>2025</span></div>
+        <div>
+          <h3>Towards Understanding and Improving Refusal in Compressed Models via Mechanistic Interpretability</h3>
+          <p class="authors"><strong>V.K. Chhabra</strong>, D. Zhu, Z. Zhu, X. Zhang, M.M. Khalili</p>
+          <p class="venue">ICML 2025 Workshop (AIW)</p>
+        </div>
+      </li>
+    </ol>
+    <h3 class="group-title">Machine Learning, Systems & HCI</h3>
+    <ol class="pubs">
+      <li class="card pub">
+        <div class="pub-meta"><span class="badge">MobiCom</span><span>2024</span></div>
+        <div>
+          <h3>HORCRUX: Accurate Cross Band Channel Prediction</h3>
+          <p class="authors">A. Banerjee, X. Zhao, <strong>V.K. Chhabra</strong>, K. Srinivasan, S. Parthasarathy</p>
+          <p class="venue">MobiCom 2024</p>
+        </div>
+      </li>
+      <li class="card pub">
+        <div class="pub-meta"><span class="badge">ICML-W</span><span>2024</span></div>
+        <div>
+          <h3>ECG Signal Denoising Using Multi-scale Patch Embedding and Transformers</h3>
+          <p class="authors">D. Zhu, <strong>V.K. Chhabra</strong>, M.M. Khalili</p>
+          <p class="venue">ICML 2024 Workshop (NGSM)</p>
+        </div>
+      </li>
       <li class="card pub">
         <div class="pub-meta"><span class="badge">CSCW</span><span>2022</span></div>
         <div>
           <h3>Multi-Objective Personalization in Multi-Stakeholder Organizational Bulk E-mail: A Field Experiment</h3>
-          <p class="authors">Ruoyan Kong, Charles Chuankai Zhang, Ruixuan Sun, <strong>Vishnu Chhabra</strong>, Tanushsrisai Nadimpalli, Joseph A. Konstan</p>
-          <p class="venue">Proceedings of the ACM on Human-Computer Interaction (CSCW2), vol. 6</p>
+          <p class="authors">R. Kong, C. Zhang, R. Sun, <strong>V.K. Chhabra</strong>, T. Nadimpalli, J. Konstan</p>
+          <p class="venue">Proceedings of the ACM on Human-Computer Interaction (CSCW 2022)</p>
           <p class="pub-links"><a href="https://doi.org/10.1145/3555641" target="_blank" rel="noopener">doi<span aria-hidden="true">↗</span></a>
           </p>
         </div>
       </li>
     </ol>
+    <p class="muted note">Five more papers are under review.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title"><span>04</span> selected projects</h2>
+    <div class="grid-2">
+      <div class="card project">
+        <div class="project-head"><h3>Cross-Band Channel Prediction</h3><span class="tl-years">2022</span></div>
+        <p class="stack">Python · PyTorch · Diffusion models</p>
+        <p>End-to-end framework built on a conditional diffusion model that beats the prior state of the art by 2 dB SNR for downlink channel prediction; collaborated on the physics-based HORCRUX approach (MobiCom 2024).</p>
+      </div>
+      <div class="card project">
+        <div class="project-head"><h3>Face Recognition for Dental-Assisting Robots</h3><span class="tl-years">2023</span></div>
+        <p class="stack">Python · PyTorch</p>
+        <p>Generated synthetic benchmark data with Stable Diffusion and evaluated AdaFace and MogFace, reaching 90% accuracy for dual-factor authentication.</p>
+      </div>
+      <div class="card project">
+        <div class="project-head"><h3>Food Calorie Estimation with WiFi</h3><span class="tl-years">2023</span></div>
+        <p class="stack">MATLAB · Python · Spectral analysis</p>
+        <p>Estimated calories and nutrients of liquid and solid foods from WiFi signals with up to 10% error, robust to interference and food containers.</p>
+      </div>
+      <div class="card project">
+        <div class="project-head"><h3>Deep RL for Automated Trading</h3><span class="tl-years">2022</span></div>
+        <p class="stack">Undergraduate thesis</p>
+        <p>Benchmarked DQN, DDPG, PPO, SAC, A2C, TD3 and multi-agent DDPG for cryptocurrency trading, modeled as a POMDP. Awarded a Distinguished Poster.</p>
+      </div>
+    </div>
   </section>
 
   <section id="experience" class="section">
-    <h2 class="section-title"><span>04</span> experience</h2>
+    <h2 class="section-title"><span>05</span> experience</h2>
     <ol class="timeline">
   <li>
     <div class="tl-head">
-      <h3>Graduate Research Associate</h3>
+      <h3>Graduate Associate, AI Safety & Mechanistic Interpretability</h3>
       <span class="tl-years">2022 – now</span>
     </div>
     <p class="tl-org">The Ohio State University</p>
-    <ul><li>Applying machine learning to wireless networking</li><li>Developed and evaluated methods for improving cross-band channel prediction in MIMO systems</li>
+    <ul><li>Safety of compressed models: showed how pruning and quantization change the mechanisms behind refusal, and introduced AIRD, a lightweight algorithm that improves the safety of compressed models by up to 41% (ICML 2025 Workshop)</li><li>Fine-tuning and corruption: discovered neuroplasticity in language model mechanisms, a mechanistic account of how task-specific and harmful fine-tuning change a model (NAACL 2025)</li><li>Steering vectors and refusal directions: how steering vectors emerge in LLMs, their use as transferable system prompts, and alignment gradients as pseudo-refusal directions</li><li>Mentored undergraduates in the AIEdge REU (2023) on resource allocation and deepfake detection</li>
     </ul>
   </li>
   <li>
     <div class="tl-head">
-      <h3>Software Development Intern</h3>
+      <h3>Software Engineering Intern</h3>
       <span class="tl-years">2021</span>
     </div>
     <p class="tl-org">Scriptulate</p>
-    <ul><li>Built Java data structures for efficient storage, working directly with the CTO of a software startup</li><li>Ran statistical analyses with Java libraries and presented findings to clients</li>
+    <ul><li>Built databases and anomaly detection on healthcare data (k-NN, SMOTE, spectral clustering, k-means, SVM)</li><li>Built knowledge graphs to analyze doctor–patient relationships</li>
     </ul>
   </li>
   <li>
     <div class="tl-head">
-      <h3>Undergraduate Teaching Assistant</h3>
+      <h3>Teaching Assistant</h3>
       <span class="tl-years">2020 – 2022</span>
     </div>
     <p class="tl-org">University of Minnesota – Twin Cities</p>
-    <ul><li>Taught Java and OCaml to undergraduates with a team of TAs during the pandemic</li><li>Designed grading schemes, project assignments and reference solutions</li><li>Helped students debug and write clean, concise code</li>
+    <ul><li>Taught Java and OCaml to undergraduates remotely during the pandemic</li><li>Designed grading schemes, project assignments and debugging solutions</li>
     </ul>
   </li>
 </ol>
 
-    <h2 class="section-title"><span>05</span> education</h2>
+    <h2 class="section-title"><span>06</span> education</h2>
     <ol class="timeline">
   <li>
     <div class="tl-head">
@@ -153,24 +239,35 @@
       <span class="tl-years">2022 – 2027 (expected)</span>
     </div>
     <p class="tl-org">The Ohio State University</p>
-    <ul><li>Advised by Prof. Kannan Athreya and Prof. Srinivasan Parthasarathy</li><li>Applications of AI and machine learning in wireless networking</li><li>GPA: 3.85</li>
+    <ul><li>Major: Artificial Intelligence. Minors: Statistical Learning, High Performance Computing</li><li>Advised by Prof. Xueru Zhang and Prof. Mohammad Mahdi Khalili</li><li>GPA: 3.9</li>
     </ul>
   </li>
   <li>
     <div class="tl-head">
-      <h3>B.A., Mathematics and Computer Science</h3>
-      <span class="tl-years">2022</span>
+      <h3>B.S., Computer Science and Mathematics</h3>
+      <span class="tl-years">2018 – 2022</span>
     </div>
     <p class="tl-org">University of Minnesota – Twin Cities</p>
-    <ul><li>Double major in Mathematics and Computer Science</li><li>GPA: 3.404</li>
+    <ul><li>Advised by Prof. Joseph Konstan and Prof. Ju Sun</li>
     </ul>
   </li>
 </ol>
 
+    <h2 class="section-title"><span>07</span> skills</h2>
+    <dl class="skills">
+      <dt>Research</dt>
+      <dd>Mechanistic interpretability, sparse autoencoders, steering vectors, circuit analysis, LLM safety & refusal evaluation, pruning & quantization, fine-tuning</dd>
+      <dt>Languages</dt>
+      <dd>Python, C/C++, Java, OCaml, SQL, CUDA</dd>
+      <dt>ML & interpretability</dt>
+      <dd>PyTorch, Hugging Face Transformers, TransformerLens, SAELens, TensorFlow, scikit-learn</dd>
+      <dt>Training & infra</dt>
+      <dd>PyTorch Distributed, DeepSpeed/FSDP, vLLM, Weights & Biases, Slurm, MPI, Docker, Kubernetes, AWS SageMaker</dd>
+    </dl>
   </section>
 
   <section id="contact" class="section">
-    <h2 class="section-title"><span>06</span> contact</h2>
+    <h2 class="section-title"><span>08</span> contact</h2>
     <div class="grid-2">
       <div class="card">
         <h3>Email</h3>
