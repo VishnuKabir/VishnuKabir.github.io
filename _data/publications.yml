@@ -1,9 +1,35 @@
-# Newest first. `venue_short` is shown as a tag; `links` are optional.
-- title: "Multi-Objective Personalization in Multi-Stakeholder Organizational Bulk E-mail: A Field Experiment"
-  authors: Ruoyan Kong, Charles Chuankai Zhang, Ruixuan Sun, Vishnu Chhabra, Tanushsrisai Nadimpalli, Joseph A. Konstan
-  venue: Proceedings of the ACM on Human-Computer Interaction (CSCW2), vol. 6
-  venue_short: CSCW
-  year: 2022
-  links:
-    - label: doi
-      url: https://doi.org/10.1145/3555641
+# Accepted papers only, grouped by area, newest first within each group.
+# `venue_short` is shown as a tag; `links` are optional.
+- group: AI Safety & Interpretability
+  papers:
+    - title: "Neuroplasticity and Corruption in Model Mechanisms: A Case Study of Indirect Object Identification"
+      authors: V.K. Chhabra, D. Zhu, M.M. Khalili
+      venue: NAACL 2025
+      venue_short: NAACL
+      year: 2025
+    - title: Towards Understanding and Improving Refusal in Compressed Models via Mechanistic Interpretability
+      authors: V.K. Chhabra, D. Zhu, Z. Zhu, X. Zhang, M.M. Khalili
+      venue: ICML 2025 Workshop (AIW)
+      venue_short: ICML-W
+      year: 2025
+
+- group: Machine Learning, Systems & HCI
+  papers:
+    - title: "HORCRUX: Accurate Cross Band Channel Prediction"
+      authors: A. Banerjee, X. Zhao, V.K. Chhabra, K. Srinivasan, S. Parthasarathy
+      venue: MobiCom 2024
+      venue_short: MobiCom
+      year: 2024
+    - title: ECG Signal Denoising Using Multi-scale Patch Embedding and Transformers
+      authors: D. Zhu, V.K. Chhabra, M.M. Khalili
+      venue: ICML 2024 Workshop (NGSM)
+      venue_short: ICML-W
+      year: 2024
+    - title: "Multi-Objective Personalization in Multi-Stakeholder Organizational Bulk E-mail: A Field Experiment"
+      authors: R. Kong, C. Zhang, R. Sun, V.K. Chhabra, T. Nadimpalli, J. Konstan
+      venue: Proceedings of the ACM on Human-Computer Interaction (CSCW 2022)
+      venue_short: CSCW
+      year: 2022
+      links:
+        - label: doi
+          url: https://doi.org/10.1145/3555641

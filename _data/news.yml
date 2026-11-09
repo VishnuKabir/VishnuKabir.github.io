@@ -1,6 +1,14 @@
-# Newest first.
+# Newest first. Exact days are approximate where only the month is known.
+- date: 2026-06-01
+  text: Advanced to **PhD candidacy**.
+- date: 2025-06-01
+  text: Workshop paper on refusal in compressed models accepted at **ICML 2025 (AIW)**.
+- date: 2025-01-01
+  text: "*Neuroplasticity and Corruption in Model Mechanisms* accepted at **NAACL 2025**."
+- date: 2024-06-01
+  text: Workshop paper on ECG signal denoising accepted at **ICML 2024 (NGSM)**.
 - date: 2023-12-01
-  text: Our work **HORCRUX** on accurate channel prediction was accepted at **MobiCom 2024**.
+  text: Our work **HORCRUX** on accurate cross-band channel prediction was accepted at **MobiCom 2024**.
 - date: 2023-11-20
   text: Passed my PhD qualifying exams.
 - date: 2022-12-07

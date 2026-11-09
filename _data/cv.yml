@@ -3,46 +3,79 @@ education:
     institution: The Ohio State University
     years: 2022 – 2027 (expected)
     details:
-      - Advised by Prof. Kannan Athreya and Prof. Srinivasan Parthasarathy
-      - Applications of AI and machine learning in wireless networking
-      - "GPA: 3.85"
-  - title: B.A., Mathematics and Computer Science
+      - "Major: Artificial Intelligence. Minors: Statistical Learning, High Performance Computing"
+      - Advised by Prof. Xueru Zhang and Prof. Mohammad Mahdi Khalili
+      - "GPA: 3.9"
+  - title: B.S., Computer Science and Mathematics
     institution: University of Minnesota – Twin Cities
-    years: 2022
+    years: 2018 – 2022
     details:
-      - Double major in Mathematics and Computer Science
-      - "GPA: 3.404"
+      - Advised by Prof. Joseph Konstan and Prof. Ju Sun
 
 experience:
-  - title: Graduate Research Associate
+  - title: Graduate Associate, AI Safety & Mechanistic Interpretability
     institution: The Ohio State University
     years: 2022 – now
     details:
-      - Applying machine learning to wireless networking
-      - Developed and evaluated methods for improving cross-band channel prediction in MIMO systems
-  - title: Software Development Intern
+      - "Safety of compressed models: showed how pruning and quantization change the mechanisms behind refusal, and introduced AIRD, a lightweight algorithm that improves the safety of compressed models by up to 41% (ICML 2025 Workshop)"
+      - "Fine-tuning and corruption: discovered neuroplasticity in language model mechanisms, a mechanistic account of how task-specific and harmful fine-tuning change a model (NAACL 2025)"
+      - "Steering vectors and refusal directions: how steering vectors emerge in LLMs, their use as transferable system prompts, and alignment gradients as pseudo-refusal directions"
+      - Mentored undergraduates in the AIEdge REU (2023) on resource allocation and deepfake detection
+  - title: Software Engineering Intern
     institution: Scriptulate
     years: 2021
     details:
-      - Built Java data structures for efficient storage, working directly with the CTO of a software startup
-      - Ran statistical analyses with Java libraries and presented findings to clients
-  - title: Undergraduate Teaching Assistant
+      - Built databases and anomaly detection on healthcare data (k-NN, SMOTE, spectral clustering, k-means, SVM)
+      - Built knowledge graphs to analyze doctor–patient relationships
+  - title: Teaching Assistant
     institution: University of Minnesota – Twin Cities
     years: 2020 – 2022
     details:
-      - Taught Java and OCaml to undergraduates with a team of TAs during the pandemic
-      - Designed grading schemes, project assignments and reference solutions
-      - Helped students debug and write clean, concise code
+      - Taught Java and OCaml to undergraduates remotely during the pandemic
+      - Designed grading schemes, project assignments and debugging solutions
 
 interests:
-  - area: Machine Learning
+  - area: AI Safety & Interpretability
     topics:
       - Mechanistic interpretability
-      - Out-of-distribution detection
-      - Fourier neural operators
-  - area: Mathematics
+      - Refusal & safety mechanisms
+      - Steering vectors
+      - Sparse autoencoders
+      - Model compression
+      - Fine-tuning robustness
+  - area: Machine Learning
     topics:
-      - Optimal transport
-      - Differential equations
+      - Diffusion models
+      - Reinforcement learning
+      - Statistical learning
+      - ML for wireless networks
+
+projects:
+  - title: Cross-Band Channel Prediction
+    year: 2022
+    stack: Python · PyTorch · Diffusion models
+    text: End-to-end framework built on a conditional diffusion model that beats the prior state of the art by 2 dB SNR for downlink channel prediction; collaborated on the physics-based HORCRUX approach (MobiCom 2024).
+  - title: Face Recognition for Dental-Assisting Robots
+    year: 2023
+    stack: Python · PyTorch
+    text: Generated synthetic benchmark data with Stable Diffusion and evaluated AdaFace and MogFace, reaching 90% accuracy for dual-factor authentication.
+  - title: Food Calorie Estimation with WiFi
+    year: 2023
+    stack: MATLAB · Python · Spectral analysis
+    text: Estimated calories and nutrients of liquid and solid foods from WiFi signals with up to 10% error, robust to interference and food containers.
+  - title: Deep RL for Automated Trading
+    year: 2022
+    stack: Undergraduate thesis
+    text: Benchmarked DQN, DDPG, PPO, SAC, A2C, TD3 and multi-agent DDPG for cryptocurrency trading, modeled as a POMDP. Awarded a Distinguished Poster.
+
+skills:
+  - label: Research
+    items: Mechanistic interpretability, sparse autoencoders, steering vectors, circuit analysis, LLM safety & refusal evaluation, pruning & quantization, fine-tuning
+  - label: Languages
+    items: Python, C/C++, Java, OCaml, SQL, CUDA
+  - label: ML & interpretability
+    items: PyTorch, Hugging Face Transformers, TransformerLens, SAELens, TensorFlow, scikit-learn
+  - label: Training & infra
+    items: PyTorch Distributed, DeepSpeed/FSDP, vLLM, Weights & Biases, Slurm, MPI, Docker, Kubernetes, AWS SageMaker
 
 languages: English, Hindi, French
