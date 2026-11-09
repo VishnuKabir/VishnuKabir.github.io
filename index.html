@@ -10,6 +10,7 @@ layout: default
       <li><a href="#research">research</a></li>
       <li><a href="#news">news</a></li>
       <li><a href="#publications">publications</a></li>
+      <li><a href="#projects">projects</a></li>
       <li><a href="#experience">experience</a></li>
       <li><a href="#contact">contact</a></li>
       <li><a class="nav-cv" href="{{ a.cv_pdf | relative_url }}">cv.pdf</a></li>
@@ -24,10 +25,16 @@ layout: default
       <h1>{{ a.name }}</h1>
       <p class="role">{{ a.role }}</p>
       <p class="lead">
-        I'm a PhD student at The Ohio State University, advised by
-        Prof. Kannan Athreya and Prof. Srinivasan Parthasarathy. My research
-        includes mechanistic interpretability and out-of-distribution detection
-        for LLMs, along with machine learning for wireless networks.
+        I'm a PhD candidate at The Ohio State University, advised by
+        Prof. Xueru Zhang and Prof. Mohammad Mahdi Khalili, working on AI safety
+        through mechanistic interpretability. I study how safety mechanisms in
+        language models, such as refusal behavior and steering directions, change
+        under compression, fine-tuning and corruption, and I build lightweight
+        methods that make models safer.
+      </p>
+      <p class="lead lead-sub">
+        <span class="hl">10 papers</span>, 6 first-author, at NAACL, MobiCom, CSCW and ICML workshops.
+        Currently open to research scientist roles in AI safety and interpretability.
       </p>
       <ul class="links">
         {%- for l in a.links %}
@@ -69,13 +76,15 @@ layout: default
 
   <section id="publications" class="section">
     <h2 class="section-title"><span>03</span> publications</h2>
+    {%- for g in site.data.publications %}
+    <h3 class="group-title">{{ g.group }}</h3>
     <ol class="pubs">
-      {%- for p in site.data.publications %}
+      {%- for p in g.papers %}
       <li class="card pub">
         <div class="pub-meta"><span class="badge">{{ p.venue_short }}</span><span>{{ p.year }}</span></div>
         <div>
           <h3>{{ p.title }}</h3>
-          <p class="authors">{{ p.authors | replace: 'Vishnu Chhabra', '<strong>Vishnu Chhabra</strong>' }}</p>
+          <p class="authors">{{ p.authors | replace: 'V.K. Chhabra', '<strong>V.K. Chhabra</strong>' }}</p>
           <p class="venue">{{ p.venue }}</p>
           {%- if p.links %}
           <p class="pub-links">
@@ -86,17 +95,39 @@ layout: default
       </li>
       {%- endfor %}
     </ol>
+    {%- endfor %}
+    <p class="muted note">Five more papers are under review.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title"><span>04</span> selected projects</h2>
+    <div class="grid-2">
+      {%- for pr in cv.projects %}
+      <div class="card project">
+        <div class="project-head"><h3>{{ pr.title }}</h3><span class="tl-years">{{ pr.year }}</span></div>
+        <p class="stack">{{ pr.stack }}</p>
+        <p>{{ pr.text }}</p>
+      </div>
+      {%- endfor %}
+    </div>
   </section>
 
   <section id="experience" class="section">
-    <h2 class="section-title"><span>04</span> experience</h2>
+    <h2 class="section-title"><span>05</span> experience</h2>
     {% include timeline.html entries=cv.experience %}
-    <h2 class="section-title"><span>05</span> education</h2>
+    <h2 class="section-title"><span>06</span> education</h2>
     {% include timeline.html entries=cv.education %}
+    <h2 class="section-title"><span>07</span> skills</h2>
+    <dl class="skills">
+      {%- for sk in cv.skills %}
+      <dt>{{ sk.label }}</dt>
+      <dd>{{ sk.items }}</dd>
+      {%- endfor %}
+    </dl>
   </section>
 
   <section id="contact" class="section">
-    <h2 class="section-title"><span>06</span> contact</h2>
+    <h2 class="section-title"><span>08</span> contact</h2>
     <div class="grid-2">
       <div class="card">
         <h3>Email</h3>

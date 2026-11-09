@@ -2,16 +2,16 @@
 title: Vishnu Kabir Chhabra
 short_name: vkc
 description: >-
-  PhD student at The Ohio State University working on mechanistic
-  interpretability, out-of-distribution detection for LLMs, and machine
-  learning for wireless networks.
+  PhD candidate at The Ohio State University working on AI safety through
+  mechanistic interpretability: how refusal and steering mechanisms in
+  language models change under compression, fine-tuning and corruption.
 url: https://vishnukabir.github.io
 baseurl: ""
 lang: en
 
 author:
   name: Vishnu Kabir Chhabra
-  role: PhD Student · Computer Science & Engineering
+  role: PhD Candidate · AI Safety & Mechanistic Interpretability
   affiliation: The Ohio State University
   email: vishnu.kabirc@gmail.com
   photo: /assets/img/portrait.jpg
