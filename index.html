@@ -1,0 +1,117 @@
+---
+layout: default
+---
+{%- assign a = site.author -%}
+{%- assign cv = site.data.cv -%}
+<header class="topbar">
+  <nav class="nav wrap" aria-label="Sections">
+    <a class="brand" href="#top">{{ site.short_name }}<span class="caret" aria-hidden="true">_</span></a>
+    <ul>
+      <li><a href="#research">research</a></li>
+      <li><a href="#news">news</a></li>
+      <li><a href="#publications">publications</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#contact">contact</a></li>
+      <li><a class="nav-cv" href="{{ a.cv_pdf | relative_url }}">cv.pdf</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main" class="wrap">
+  <section class="hero" id="top">
+    <div class="hero-text">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> {{ a.affiliation }}</p>
+      <h1>{{ a.name }}</h1>
+      <p class="role">{{ a.role }}</p>
+      <p class="lead">
+        I'm a PhD student at The Ohio State University, advised by
+        Prof. Kannan Athreya and Prof. Srinivasan Parthasarathy. My research
+        includes mechanistic interpretability and out-of-distribution detection
+        for LLMs, along with machine learning for wireless networks.
+      </p>
+      <ul class="links">
+        {%- for l in a.links %}
+        <li><a href="{{ l.url }}" rel="me noopener" target="_blank">{{ l.label }}<span aria-hidden="true">↗</span></a></li>
+        {%- endfor %}
+        <li><a href="mailto:{{ a.email }}">email<span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </div>
+    <figure class="portrait">
+      <img src="{{ a.photo | relative_url }}" alt="Portrait of {{ a.name }}" width="640" height="800">
+    </figure>
+  </section>
+
+  <section id="research" class="section">
+    <h2 class="section-title"><span>01</span> research interests</h2>
+    <div class="grid-2">
+      {%- for group in cv.interests %}
+      <div class="card">
+        <h3>{{ group.area }}</h3>
+        <ul class="tags">
+          {%- for t in group.topics %}<li>{{ t }}</li>{%- endfor %}
+        </ul>
+      </div>
+      {%- endfor %}
+    </div>
+  </section>
+
+  <section id="news" class="section">
+    <h2 class="section-title"><span>02</span> news</h2>
+    <ol class="log">
+      {%- for item in site.data.news %}
+      <li>
+        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%Y.%m' }}</time>
+        <p>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+      </li>
+      {%- endfor %}
+    </ol>
+  </section>
+
+  <section id="publications" class="section">
+    <h2 class="section-title"><span>03</span> publications</h2>
+    <ol class="pubs">
+      {%- for p in site.data.publications %}
+      <li class="card pub">
+        <div class="pub-meta"><span class="badge">{{ p.venue_short }}</span><span>{{ p.year }}</span></div>
+        <div>
+          <h3>{{ p.title }}</h3>
+          <p class="authors">{{ p.authors | replace: 'Vishnu Chhabra', '<strong>Vishnu Chhabra</strong>' }}</p>
+          <p class="venue">{{ p.venue }}</p>
+          {%- if p.links %}
+          <p class="pub-links">
+            {%- for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}<span aria-hidden="true">↗</span></a>{%- endfor %}
+          </p>
+          {%- endif %}
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </section>
+
+  <section id="experience" class="section">
+    <h2 class="section-title"><span>04</span> experience</h2>
+    {% include timeline.html entries=cv.experience %}
+    <h2 class="section-title"><span>05</span> education</h2>
+    {% include timeline.html entries=cv.education %}
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="section-title"><span>06</span> contact</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Email</h3>
+        <p><a href="mailto:{{ a.email }}">{{ a.email }}</a></p>
+        <p class="muted">Languages: {{ cv.languages }}</p>
+      </div>
+      <div class="card">
+        <h3>Office</h3>
+        <address>{% for line in a.address %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</address>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <p>© {{ site.time | date: '%Y' }} {{ a.name }}</p>
+  <p><a href="{{ a.soundtrack }}" target="_blank" rel="noopener">▶ soundtrack for debugging a lot of code</a></p>
+</footer>

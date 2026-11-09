@@ -1,0 +1,16 @@
+<ol class="timeline">
+  {%- for e in include.entries %}
+  <li>
+    <div class="tl-head">
+      <h3>{{ e.title }}</h3>
+      <span class="tl-years">{{ e.years }}</span>
+    </div>
+    <p class="tl-org">{{ e.institution }}</p>
+    {%- if e.details %}
+    <ul>
+      {%- for d in e.details %}<li>{{ d }}</li>{%- endfor %}
+    </ul>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ol>

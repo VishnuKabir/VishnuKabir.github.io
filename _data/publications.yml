@@ -1,0 +1,9 @@
+# Newest first. `venue_short` is shown as a tag; `links` are optional.
+- title: "Multi-Objective Personalization in Multi-Stakeholder Organizational Bulk E-mail: A Field Experiment"
+  authors: Ruoyan Kong, Charles Chuankai Zhang, Ruixuan Sun, Vishnu Chhabra, Tanushsrisai Nadimpalli, Joseph A. Konstan
+  venue: Proceedings of the ACM on Human-Computer Interaction (CSCW2), vol. 6
+  venue_short: CSCW
+  year: 2022
+  links:
+    - label: doi
+      url: https://doi.org/10.1145/3555641
