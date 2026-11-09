@@ -1,7 +1,27 @@
-# Accepted papers only, grouped by area, newest first within each group.
+# Grouped by area: under-review papers first, then accepted papers newest first.
 # `venue_short` is shown as a tag; `links` are optional.
 - group: AI Safety & Interpretability
   papers:
+    - title: "Speaking the Steering Vector: Steering Vectors as Universally Transferable System Prompts"
+      authors: V.K. Chhabra, X. Zhang, M.M. Khalili
+      venue: Under review
+      venue_short: UR
+    - title: Scoping the Emergence of Steering Vectors in Large Language Models
+      authors: V.K. Chhabra, Z. Zhu, X. Zhang, M.M. Khalili
+      venue: Under review
+      venue_short: UR
+    - title: Alignment Gradients are Pseudo-Refusal Directions
+      authors: V.K. Chhabra, X. Zhang, M.M. Khalili
+      venue: Under review
+      venue_short: UR
+    - title: "Fixing What Fine-Tuning Breaks: A Simple and Efficient Approach"
+      authors: V.K. Chhabra, D. Zhu, Z. Zhu, X. Zhang, M.M. Khalili
+      venue: Under review
+      venue_short: UR
+    - title: On the Transferability of Sparse Autoencoders for Interpreting Compressed Models
+      authors: S. Gupte, V.K. Chhabra, M.M. Khalili
+      venue: Under review
+      venue_short: UR
     - title: "Neuroplasticity and Corruption in Model Mechanisms: A Case Study of Indirect Object Identification"
       authors: V.K. Chhabra, D. Zhu, M.M. Khalili
       venue: NAACL 2025

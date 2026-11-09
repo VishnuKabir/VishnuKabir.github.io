@@ -32,10 +32,6 @@ layout: default
         under compression, fine-tuning and corruption, and I build lightweight
         methods that make models safer.
       </p>
-      <p class="lead lead-sub">
-        <span class="hl">10 papers</span>, 6 first-author, at NAACL, MobiCom, CSCW and ICML workshops.
-        Currently open to research scientist roles in AI safety and interpretability.
-      </p>
       <ul class="links">
         {%- for l in a.links %}
         <li><a href="{{ l.url }}" rel="me noopener" target="_blank">{{ l.label }}<span aria-hidden="true">↗</span></a></li>
@@ -81,7 +77,7 @@ layout: default
     <ol class="pubs">
       {%- for p in g.papers %}
       <li class="card pub">
-        <div class="pub-meta"><span class="badge">{{ p.venue_short }}</span><span>{{ p.year }}</span></div>
+        <div class="pub-meta"><span class="badge{% if p.venue_short == 'UR' %} badge-ur{% endif %}">{{ p.venue_short }}</span>{% if p.year %}<span>{{ p.year }}</span>{% endif %}</div>
         <div>
           <h3>{{ p.title }}</h3>
           <p class="authors">{{ p.authors | replace: 'V.K. Chhabra', '<strong>V.K. Chhabra</strong>' }}</p>
@@ -96,7 +92,6 @@ layout: default
       {%- endfor %}
     </ol>
     {%- endfor %}
-    <p class="muted note">Five more papers are under review.</p>
   </section>
 
   <section id="projects" class="section">
