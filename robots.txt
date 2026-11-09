@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: VishnuKabir.github.io/sitemap.xml
+Sitemap: https://vishnukabir.github.io/sitemap.xml
