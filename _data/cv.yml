@@ -1,69 +1,48 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Vishnu Kabir Chhabra
-    - name: Date of Birth
-      value: 24th November 1999 
-    - name: Languages
-      value: English, Hindi, French
+education:
+  - title: PhD, Computer Science and Engineering
+    institution: The Ohio State University
+    years: 2022 – 2027 (expected)
+    details:
+      - Advised by Prof. Kannan Athreya and Prof. Srinivasan Parthasarathy
+      - Applications of AI and machine learning in wireless networking
+      - "GPA: 3.85"
+  - title: B.A., Mathematics and Computer Science
+    institution: University of Minnesota – Twin Cities
+    years: 2022
+    details:
+      - Double major in Mathematics and Computer Science
+      - "GPA: 3.404"
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Computer Science and Engineering
-      institution: Ohio State University 
-      year: 2027
-      description:
-        - Advised by Prof. Kannan Athreya and Prof. Srinivasan Parthasarathy
-        - Specializing in Applications of AI and Machine Learning in Wireless Networking. 
-        - GPA - 3.85
-    - title: B.A in Mathematics and Computer Science. 
-      institution: University of Minnesota- Twin Cities
-      year: 2022
-      description:
-        - Double Major in Mathematics and Computer Science. 
-        - GPA - 3.404
+experience:
+  - title: Graduate Research Associate
+    institution: The Ohio State University
+    years: 2022 – now
+    details:
+      - Applying machine learning to wireless networking
+      - Developed and evaluated methods for improving cross-band channel prediction in MIMO systems
+  - title: Software Development Intern
+    institution: Scriptulate
+    years: 2021
+    details:
+      - Built Java data structures for efficient storage, working directly with the CTO of a software startup
+      - Ran statistical analyses with Java libraries and presented findings to clients
+  - title: Undergraduate Teaching Assistant
+    institution: University of Minnesota – Twin Cities
+    years: 2020 – 2022
+    details:
+      - Taught Java and OCaml to undergraduates with a team of TAs during the pandemic
+      - Designed grading schemes, project assignments and reference solutions
+      - Helped students debug and write clean, concise code
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Graduate Research Associate
-      institution: Ohio State University 
-      year: 2022 - Now
-      description:
-        - Applying Machine Learning in the field of Wireless Networking
-        - Performed and tested various methods for improving cross band channel predictions in MIMO systems.
-    
-    - title: Software Development Intern  
-      institution: Scriptulate 
-      year: 2021 
-      description:
-        - Developed Java objects for efficient data storage; working directly under Chief Technical Officer of a software startup.
-        - Interpreted data to provide clients with an overview of the analysis and findings.
-        - Performed various forms of statistical analysis on data using an assortment of Java Libraries.
+interests:
+  - area: Machine Learning
+    topics:
+      - Mechanistic interpretability
+      - Out-of-distribution detection
+      - Fourier neural operators
+  - area: Mathematics
+    topics:
+      - Optimal transport
+      - Differential equations
 
-    - title: Ungergraduate Teaching Assistant
-      institution: University of Minnesota Twin - Cities 
-      year: 2020 - 2022
-      description:
-        - Worked with a team of TAs to efficiently teach Java & OCaml to undergraduates in times of a global pandemic
-        - Created grading scheme for homework, quizzes, projects, exams; developed project assignments and built solutions
-        - Debugged student code and assisted in teaching them to write clean and concise code
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Machine Learning
-      items: 
-        - Out-Of-Distribution Detection.
-        - Fourier Nueral Operators.  
-    - title: Mathematics 
-      items:
-        - Theory of Optimal Transport.
-        - Theory of Differential Equations.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+languages: English, Hindi, French

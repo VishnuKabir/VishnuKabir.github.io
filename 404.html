@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: default
+title: Not found
 permalink: /404.html
-title: "Page not found"
-description: "Looks like there has been a mistake. Nothing exists here."
-redirect: true
+sitemap: false
 ---
-
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="{{ site.baseurl }}/">home page</a>.</p>
+<main id="main" class="wrap notfound">
+  <h1>404</h1>
+  <p>signal lost: nothing lives at this address.</p>
+  <p><a href="{{ '/' | relative_url }}">&gt; return home</a></p>
+</main>
